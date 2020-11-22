@@ -1,0 +1,219 @@
+#SUBSCRIBE{
+    display: block  ;
+    background-color: rgb(75, 66, 54);
+    margin:0px;
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 37%;
+    margin-top: 7%;
+}
+#login_body,#home{
+    background-color:burlywood;
+}
+
+
+
+
+
+.nav_bar {
+    position: fixed;
+    top: 8px;
+    right: 16px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(184, 96, 55);
+    
+  }
+.navbar-brand{
+    position: fixed;
+    top: 8px;
+    left: 16px;
+    background-color: rgb(184, 96, 55);
+}
+
+ .active{ 
+    float: left;
+} 
+
+#center_name{
+    color:burlywood;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 50px;
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    margin: 0px;
+    padding: 0px;
+
+    object-fit: fill;
+    width: 1500px;
+    height: 700px;
+}
+
+
+  .active , .navbar-brand , a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:8px;
+    margin: 0px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  .active a:hover {
+    background-color:rgb(0, 0, 0);
+  }
+
+ #about_me{
+    display: block  ;
+    background-color: rgb(75, 66, 54);
+    margin: 10px;
+    color:  burlywood;
+    padding: 10px;
+    text-align: center;
+
+ }
+
+ #edu{
+    background-color: rgb(75, 66, 54);
+    text-align: center;
+    color:  burlywood;
+    margin:10px;
+    padding: 10px;
+}
+ #ten{
+    color:  black;
+     width: 300px;
+    height: 200px;
+    margin-left: 0%;
+    display: inline-block;
+    text-align: center;
+    background-color: burlywood;
+ }
+
+ #X2,#UG{
+    color:  black;
+    width: 300px;
+    height: 200px;
+    margin-left: 5%;
+    display: inline-block;
+    text-align: center;
+    background-color: burlywood;
+ }
+
+
+#name {
+    font-size: 50px;
+    color: black;
+}
+#about {
+    font-size: 30px;
+    color: black;
+}
+ #tskills{
+    /* background-color: chocolate; */
+    text-align: center;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    background-color:rgb(75, 66, 54);
+
+ }
+
+ #tech{
+    background-color:rgb(75, 66, 54);
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    color:  burlywood;
+ }
+ .tsk{
+     /* display: inline-block; */
+     margin-left: 25%;
+     margin-right: 25%;
+     padding: 10px;
+     text-align: center;
+     border:black;
+    color: white;
+    }
+
+  .tsk:hover,.lang:hover ,.hlink:hover{
+    background-color:rgb(0, 0, 0);
+  }  
+
+#project{
+    background-color:rgb(75, 66, 54);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color:burlywood;
+
+ }
+
+  #pro1{
+    color: black;
+    width: 400px;
+    height: 200px;
+    /* margin-left: 0%; */
+    display: inline-block;
+    text-align: center;
+  
+    background-color: burlywood;
+  }
+  #pro2,#pro3{
+    color: black;
+    width: 400px;
+    height: 200px;
+    margin-left: 5%;
+    display: inline-block;
+    text-align: center;
+    background-color: burlywood;
+    vertical-align: bottom; 
+  }
+
+  #language, #certificate{
+    background-color: rgb(75, 66, 54) ;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    color:  burlywood;
+
+ }
+
+ .lang{
+    margin-left: 25%;
+     margin-right: 25%;
+     padding: 10px;
+     text-align: center;
+     border:black;
+    color:rgb(255, 255, 255);
+
+    list-style-type: none;
+ }
+
+
+
+#contact{
+    background-color:rgb(75, 66, 54);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color:burlywood;
+   
+}  
+
+.hlink{
+    background-color:rgb(75, 66, 54);
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    color:  burlywood;
+    display: inline-block;
+}
