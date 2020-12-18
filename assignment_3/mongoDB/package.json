@@ -13,8 +13,8 @@
     "mocha": "^8.2.1"
   },
   "scripts": {
-    "test": "mocha",
-    "start": "node server.js"
+    "test": "mocha --timeout 10000",
+    "start": "node server.js "
   },
   "author": "",
   "license": "ISC"

@@ -12,9 +12,10 @@ describe('Updating database country',()=>{
     newuser.save()
 
     it('updating db of user country',(done)=>{
-        user.findOneAndUpdate({name:'ronaldo2'}, {country :'india'}).then((data)=>{
+        user.findOneAndUpdate({name:'ronaldo2'}, {country :'india'}, {useFindAndModify: true}).then((data)=>{
             console.log(data);
             user.findById({_id:newuser._id}).then((result)=>{
+                console.log(result);
                 assert(result.country==='india')
                 done();
             })

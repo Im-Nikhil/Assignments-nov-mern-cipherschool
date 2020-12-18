@@ -12,9 +12,3 @@ before((done) => {
         console.log('Unable to connect', error)
     });
 })
-beforeEach( (done) => {
-    mongoose.connection.collections.people.drop(()=> {
-        done();
-
-    });
-})

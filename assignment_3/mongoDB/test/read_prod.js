@@ -11,7 +11,7 @@ describe('reading data',()=>{
     newProd.save()
     
     it('it finds one record form db of product',(done)=>{
-        product.findOne({Prod_name:'earphones1'}).then((data)=>{
+        Products.findOne({Prod_name:'earphones1'}).then((data)=>{
             console.log(data);
             assert(data.Prod_name==='earphones1')
              done();

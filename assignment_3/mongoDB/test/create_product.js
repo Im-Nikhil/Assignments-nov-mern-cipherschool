@@ -8,7 +8,7 @@ describe('saving records', () => {
             Descrip: 'truely wireless earphones ',
             price: 3000,
             quantity:20,
-            category:'music'
+            category:'music',
             
         })
     

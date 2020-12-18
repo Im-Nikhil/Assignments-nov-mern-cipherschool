@@ -7,7 +7,7 @@ const ProdSchema = new Schema({
     Descrip: String,
     price: Number,
     quantity:Number,
-    category:String
+    category:String,
 })
 
 const Product = mongoose.model('Products', ProdSchema);
